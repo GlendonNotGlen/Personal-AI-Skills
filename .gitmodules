@@ -1,0 +1,4 @@
+[submodule "caido-skills"]
+	path = caido-skills
+	url = https://github.com/caido/skills.git
+	branch = main

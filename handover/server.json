@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "host": "",
+  "username": "",
+  "port": 22,
+  "remote_root": "",
+  "identity_file": ""
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Home Server Handover"
+  short_description: "Move active work to a remote home server"
+  default_prompt: "Use $handover to transfer this work to my home server."

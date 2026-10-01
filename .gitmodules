@@ -2,3 +2,6 @@
 	path = caido-skills
 	url = https://github.com/caido/skills.git
 	branch = main
+[submodule "humanizer"]
+	path = humanizer
+	url = https://github.com/blader/humanizer.git

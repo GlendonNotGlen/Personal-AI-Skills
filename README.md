@@ -7,7 +7,7 @@ A collection of Claude skills — both found online and personally created.
 Skills are defined in Markdown files and placed in your Claude config directory:
 
 ```
-%USERPROFILE%\.claude\<skill-name>\SKILL.md
+%USERPROFILE%\.claude\skills\<skill-name>\SKILL.md
 ```
 
 ## Skills
@@ -22,7 +22,10 @@ Skills are defined in Markdown files and placed in your Claude config directory:
 - **skill-creator** ([anthropics/claude-skills](https://github.com/anthropics/claude-skills)) — Build and evaluate new skills
 - **theme-factory** ([anthropics/claude-skills](https://github.com/anthropics/claude-skills)) — Apply visual themes to artifacts
 - **webapp-testing** ([anthropics/claude-skills](https://github.com/anthropics/claude-skills)) — Playwright-based local app testing
+- **writing-tropes** ([tropes.fyi](https://tropes.fyi/), [skill](writing-tropes/SKILL.md)) — Write and review project prose with the bundled AI writing trope catalog
 - **xlsx** ([anthropics/claude-skills](https://github.com/anthropics/claude-skills)) — Spreadsheet creation and editing
+
+To use `writing-tropes` in a project, copy the entire `writing-tropes/` folder into `.claude/skills/` for Claude Code or `.agents/skills/` for Codex. Keep `references/` with `SKILL.md`; `agents/openai.yaml` supplies optional Codex UI metadata. Invoke it with `$writing-tropes`, for example: "Use $writing-tropes to revise this README while preserving the technical details."
 
 ### Personal Skills
 

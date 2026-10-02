@@ -1,0 +1,4 @@
+interface:
+  display_name: "Writing Tropes"
+  short_description: "Write and review prose using the tropes.fyi catalog"
+  default_prompt: "Use $writing-tropes to revise this project prose while preserving its meaning and voice."

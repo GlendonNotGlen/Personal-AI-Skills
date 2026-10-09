@@ -1,0 +1,4 @@
+interface:
+  display_name: "Talk Deck Style"
+  short_description: "Build and edit talk slides the way Glendon prefers"
+  default_prompt: "Use $talk-deck-style to review and reword these slides for my talk."

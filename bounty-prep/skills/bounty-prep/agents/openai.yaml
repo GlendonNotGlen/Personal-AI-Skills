@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bounty preparation"
+  short_description: "Prepare Docker and a private bounty workspace"
+  default_prompt: "Use $bounty-prep to prepare this project and initialize a private draft program."

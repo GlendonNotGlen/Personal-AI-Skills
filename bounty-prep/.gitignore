@@ -1,0 +1,24 @@
+# Local installation bindings and generated state
+workbench.json
+local-config.json
+.env
+.env.*
+!.env.example
+.data/
+.secrets/
+private/
+runs/
+reports/
+*.token
+*.pem
+secrets.json
+
+# Dependencies and generated files
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
